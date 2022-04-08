@@ -7,6 +7,7 @@ I am building a full stack Angular 13 + Spring Boot .The back-end server uses Sp
 # Photo representing architecture of the application
 <img width="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
 # To build the application 
+<br>
 First use this command in back-end-app path:
 <b> mvn package</b> 
 this will generate the target file and the jar <br>
