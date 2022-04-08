@@ -3,6 +3,8 @@ In this application,
 I am building a full stack Angular 13 + Spring Boot .The back-end server uses Spring Boot, Spring Data JPA for interacting with database. The front-end will be built using Angular 13 . 
 <img width="1200" src="https://user-images.githubusercontent.com/51910576/162474534-40c42359-8225-4cc3-ada8-404ca94c24d3.png">
 -You have the option to filter either by state or Country or Either by both .
+# Photo representing architecture of the application
+<img with="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
 # How to run my application?
 First use this command in back-end-app path: <b> mvn package</b> <br>
 this will generate the target file and the jar <br>
