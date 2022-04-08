@@ -5,7 +5,7 @@ I am building a full stack Angular 13 + Spring Boot .The back-end server uses Sp
 -You have the option to filter either by state or Country or Either by both .
 
 # Photo representing architecture of the application
-<img width="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
+<img width="1200" src="https://user-images.githubusercontent.com/51910576/162518080-9ae7623f-e2a6-45f7-8784-885050ffc929.png">
 
 
 # TO run the application
