@@ -16,20 +16,7 @@ then run this command to generate dist files:  <b>ng build --prod</b> <br>
 then run this command to build an angular image based on the docker file: <b>docker build -t angular-image .</b> <br>
 then run a container of this image : <b>docker run -d --name angular-container -p 9090:80 angular-image</b> <br>
 
-<b>so in back-end-app</b>
-<ul>
-<li>mvn package</li>
-<li>docker build -t spring-boot-jumia-im .</li>
-<li>docker run -d --name spring-boot-container -p 8080:8080 spring-boot-jumia-im</li>
-</ul>
 
-<b>and in the front-end-app</b>
-<ul>
-<li>npm install</li>
-<li>ng build --prod</li>
-<li>docker build -t angular-image .</li>
-<li>docker run -d --name angular-container -p 9090:80 angular-image</li>
-</ul>
 
 # Now You Can Access The Application On: <br>
 # http://localhost:9090
