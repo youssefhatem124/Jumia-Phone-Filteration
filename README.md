@@ -6,8 +6,9 @@ I am building a full stack Angular 13 + Spring Boot .The back-end server uses Sp
 # Photo representing architecture of the application
 <img with="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
 # How to run my application?
+<br>
 First use this command in back-end-app path:
-<b> mvn package</b> <br>
+<b> mvn package</b> 
 this will generate the target file and the jar <br>
 then use this command in the same path to create docker image based on docker file: <b>docker build -t spring-boot-jumia-image .</b><br>
 now we have an image on our spring boot application, then we need a container to run this image <br>
