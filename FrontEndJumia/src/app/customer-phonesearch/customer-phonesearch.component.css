@@ -1,0 +1,16 @@
+.navcolor{
+    background-color:#FF6F61;
+    color:white;
+    text-align: center;
+
+}
+.tableheader{
+    background-color:#FF6F61;
+    color:white;
+    text-align: center;
+}
+.container {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}

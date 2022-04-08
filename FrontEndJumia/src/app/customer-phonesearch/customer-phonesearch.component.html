@@ -1,0 +1,112 @@
+<div class="row">
+  
+    <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <h2 class="card-text navcolor float-left">Category</h2>
+          </div>
+          <div class="card-footer">
+            <h4>Select country </h4>
+            <div class="container">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="CameroonRadio"
+                    (change)="ChangeStatus(0,selectedState,'Cameroon')">
+                <label class="form-check-label" for="CameroonRadio">
+                    Cameroon (237)
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="EthiopiaRadio"
+                    (change)="ChangeStatus(0,selectedState,'Ethiopia')">
+                <label class="form-check-label" for="EthiopiaRadio">
+                    Ethiopia (251)
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="MoroccoRadio" (change)="ChangeStatus(0,selectedState,'Morocco')">
+                <label class="form-check-label" for="MoroccoRadio">
+                    Morocco (212)
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="MozambiqueRadio"
+                    (change)="ChangeStatus(0,selectedState,'Mozambique')">
+                <label class="form-check-label" for="MozambiqueRadio">
+                    Mozambique (258)
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="UgandaRadio" (change)="ChangeStatus(0,selectedState,'Uganda')">
+                <label class="form-check-label" for="UgandaRadio">
+                    Uganda (256)
+                </label>
+            </div>
+            </div>
+<br>
+<br>
+<br>
+
+            <h4>Filter phones </h4>
+            <div class="container">
+              <div class="form-check">
+              
+                <input #allphones (change)="ChangeStatus(0,allphones.value,selectedCountry)" checked id="allphones"  value="undefined"  class="form-check-input" type="radio" name="state">
+                <label class="form-check-label text-center" for="allphones">
+                  All Phones
+                </label>
+              </div>
+              <div class="form-check">
+                
+                <input  #validphones (change)="ChangeStatus(0,validphones.value,selectedCountry)" id="validphones" value ="true" class="form-check-input" type="radio"  name="state" >
+                <label class="form-check-label text-center" for="validphones">
+                  Valid Phones 
+                </label>
+              </div>
+              
+              <div class="form-check">
+                <input #invalidphones (change)="ChangeStatus(0,invalidphones.value,selectedCountry)" id="invalidphones" value ="false" class="form-check-input" type="radio" name="state">
+                <label class="form-check-label" for="invalidphones">
+                 Invalid Phones 
+                </label>
+              </div>
+            </div>
+
+
+           
+
+          </div>      
+        </div>
+       
+        
+    </div>
+
+    <div class="col-md-12">
+        <div class="card">
+          <div class="card-block">
+            <h1 class="card-text tableheader">Result of Customers</h1>  
+          </div>
+          <div class="card-footer">
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Phone</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr  *ngFor="let customer of result">
+                    <td>{{customer.name}}</td>
+                    <td>{{customer.phone}}</td>
+                  </tr>
+            </tbody>
+          </table>
+          <nav >
+            <ul class="pagination justify-content-center">
+              <li *ngFor="let dummy of numberOfPages,let index = index"  [class.active]="pageNumber==index" class="page-item" aria-current="page">
+                <span (click)="updatePageNumber(pageNumber=index)" class="page-link">{{index+1}}</span>
+            </ul>
+          </nav>
+        </div>
+    </div>
+</div>
