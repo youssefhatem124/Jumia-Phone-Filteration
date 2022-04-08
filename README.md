@@ -4,7 +4,7 @@ I am building a full stack Angular 13 + Spring Boot .The back-end server uses Sp
 <img width="1200" src="https://user-images.githubusercontent.com/51910576/162474534-40c42359-8225-4cc3-ada8-404ca94c24d3.png">
 -You have the option to filter either by state or Country or Either by both .
 # Photo representing architecture of the application
-<img with="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
+<img width="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
 # Now You Can Access The Application On: <br>
 <br>
 First use this command in back-end-app path:
