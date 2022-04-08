@@ -3,6 +3,8 @@ In this application,
 I am building a full stack Angular 13 + Spring Boot .The back-end server uses Spring Boot, Spring Data JPA for interacting with database. The front-end will be built using Angular 13 . 
 <img width="1200" src="https://user-images.githubusercontent.com/51910576/162474534-40c42359-8225-4cc3-ada8-404ca94c24d3.png">
 -You have the option to filter either by state or Country or Either by both .
+<img width="1200" src="https://user-images.githubusercontent.com/51910576/162489050-c541302c-ad71-41ca-a855-368acdec6739.png">
+
 # Photo representing architecture of the application
 # Now You Can Access The Application On: <br>
 <br>
